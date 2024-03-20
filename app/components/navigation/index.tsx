@@ -1,16 +1,14 @@
-'use client';
-import { useState } from 'react';
-import Navbar from './navbar';
-import Sidebar from './sidebar';
+"use client";
+import { useState } from "react";
+import Navbar from "./navbar";
 
 export default function Navigation() {
-	const [menuOpen, setMenuOpen] = useState(false);
-	const toggleMenu = () => setMenuOpen(!menuOpen);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const toggleMenu = () => setMenuOpen(!menuOpen);
 
-	return (
-		<>
-			<Sidebar menuOpen={menuOpen} toggleMenu={toggleMenu} />
-			<Navbar toggleMenu={toggleMenu} />
-		</>
-	);
+  return (
+    <>
+      <Navbar toggleMenu={toggleMenu} />
+    </>
+  );
 }
