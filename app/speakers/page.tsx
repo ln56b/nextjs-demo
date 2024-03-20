@@ -1,4 +1,4 @@
-import SpeakerCard from "../components/speaker-card";
+import SpeakerCard from "../components/SpeakerCard";
 import { ScheduleSpeakerApi } from "../shared/types/api.types";
 
 const getSpeakers = async () => {

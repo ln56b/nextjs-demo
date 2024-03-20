@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import Navbar from "./navbar";
+import Navbar from "./Navbar";
 
 export default function Navigation() {
   const [menuOpen, setMenuOpen] = useState(false);

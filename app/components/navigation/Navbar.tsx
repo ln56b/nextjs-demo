@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import Button from "../Button";
-import Logo from "../Logo";
+import Logo from "./Logo";
+import Button from "./Button";
 
 export default function Navbar({ toggleMenu }: { toggleMenu: () => void }) {
   return (
@@ -37,7 +37,7 @@ export default function Navbar({ toggleMenu }: { toggleMenu: () => void }) {
               <Link href="/blog">Blog</Link>
             </li>
           </ul>
-          <Button />
+          <Button label="Home" />
         </div>
       </div>
     </div>

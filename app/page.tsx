@@ -1,5 +1,6 @@
 "use client";
-import Carousel from "./components/carousel";
+
+import Carousel from "./components/Carousel";
 
 export type Slide = {
   src: string;
